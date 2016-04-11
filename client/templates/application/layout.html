@@ -1,0 +1,19 @@
+<template name="layout">
+    <div class="container">
+        {{> header}}
+
+        <div>
+            {{> yield}}
+        </div>
+
+        <a href="/sumar">Sumar</a> <br>
+        <a href="/restar">Restar</a>  <br>
+        <a href="/multiplicar">Multiplicar</a> <br>
+        <a href="/dividir">dividir</a>
+    </div>
+
+    <div>
+        {{> operacionItem}}
+    </div>
+
+</template>
